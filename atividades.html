@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>Essa é a página de atividades</h1>
+    <h2>Exemplo de uso do formulário</h2>
+
+    <form> <!--Formulário é uma tag semântica, já indica para o preenchimento do form-->
+        <p> Nome Completo </p><input type="text" placeholder="Nome Completo" required minlength="12"> <!--Questão de estética, dentro da box ou não-->
+        <!--required é o comando para demonstrar que manda quem pode e obedece quem pode (é obrigatório preencher)-->
+        <p>Data de Nascimento</p><input type="date">
+        <p><input type="color"> <p/>
+        <p>Informe sua senha: <input type="password"placeholder="********"></p>   
+        <p> Informe seu e-mail<input type="email" required></p>
+        <p> <input type="submit" value="Login"> </p> <!--Acessar a budega-->
+       <p> Sexo</p>
+       <p> <input type="radio" name="sexo" required> Masculino</p>
+       <p> <input type="radio" name="sexo"> Feminino</p>
+       <p> <input type="radio" name="sexo"> Não Informado</p>
+       <!-- Radio são as bolinhas de opção-->
+        <!--Placeholder é o pré preenchimento, uma "dica"-->
+    </form>
+</body>
+</html>
+
